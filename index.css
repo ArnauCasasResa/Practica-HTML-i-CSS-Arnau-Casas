@@ -1,4 +1,4 @@
-#header{
+#header {
     width:100%;
     display: flex;
     background-color: #0A91AB;
@@ -9,13 +9,13 @@
     color: #FFC045;
 }
 h2{
-    color:#0A91AB;
+    color: #0A91AB;
 }
 #logotype{
     display: block;
-    background-color:#0A91AB;
-    height: 150px;
-    width: 100%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+    margin:auto;
 }
 #logo{
     display: block;
@@ -25,30 +25,30 @@ h2{
 }
 #menu{
     display: flex;
-    position:sticky;
-    flex-direction: row;
     justify-content: center;
-    background-color:#FFC045;
-    height: 50px;
-    width: 100%;
+    background-color: #FFC045;
+    transition: all 0.5s ease-in-out;
+    position: sticky;
+    top:0;
+    height:7.0%;
+    width:100%;
+
+}
+#menu:hover {
+    transform: scale(1.1);
 }
 #linea{
-    display: flex;
-    justify-content: center;
-    background-color:black;
-    height: 3px;
+    background-color: black;
+    height: 2px;
     width: 100%;
+    margin: 0%;
 }    
 .text_menu{
+    position:sticky;
+    display: flex;
+    flex-direction: row;
     padding-left: 0.75%;
     padding-right: 0.75%;
-    position:sticky;
-    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;            
     cursor: pointer;
 }
 .text_menu h5:hover{
