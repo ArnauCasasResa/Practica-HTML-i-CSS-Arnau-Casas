@@ -1,21 +1,27 @@
-header {
-    height: 20%;
-}
 #header{
-    position: fixed;
-    width: 100%;
+    width:100%;
+    display: flex;
+    background-color: #0A91AB;
+    margin:0%;
+    padding-bottom:1%;
 }
 .titulo_juego{
     color: #FFC045;
 }
+h2{
+    color:#0A91AB;
+}
 #logotype{
-    display: flex;
+    display: block;
     background-color:#0A91AB;
     height: 150px;
     width: 100%;
 }
-h2{
-    color:#0A91AB;
+#logo{
+    display: block;
+    padding-bottom: 1%;
+    margin-top: 0%;
+    margin:auto;
 }
 #menu{
     display: flex;
