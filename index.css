@@ -1,0 +1,121 @@
+header {
+    height: 20%;
+}
+#header{
+    position: fixed;
+    width: 100%;
+}
+.titulo_juego{
+    color: #FFC045;
+}
+#logotype{
+    display: flex;
+    background-color:#0A91AB;
+    height: 150px;
+    width: 100%;
+}
+h2{
+    color:#0A91AB;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#FFC045;
+    height: 50px;
+    width: 100%;
+}
+#linea{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    height: 3px;
+    width: 100%;
+}    
+.text_menu{
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;            
+    cursor: pointer;
+}
+.text_menu h5:hover{
+    color:#0A91AB;
+}
+body{
+    margin: 0%;
+}
+#imagen{
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagenes{
+    width: 500px;
+    height: 250px;
+}
+.juegos{
+    border: 2px;
+    border-style:groove;
+    border-radius: 5px;
+    border-color: #FFC045;
+    justify-content:center;
+    color: black;
+    display: inline-block;            
+    box-shadow: 10px 10px 5px grey;
+    margin: 40px;
+    width: 500px;
+}
+.info{
+    border: 2px;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    background-color: #FFC045;
+    border-style:groove;
+    border-radius: 5px;
+    border-color: #FFC045;
+    justify-content:flex-end;
+    color: black;
+    display: inline-block;            
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+    height: 20px;
+    }
+#trucos{
+    
+    border: 2px;
+    text-align: center;
+    border-style:groove;
+    border-radius: 5px;
+    background-color:lightcyan;
+    border-color: black;
+    justify-content:center;
+    color: black;
+    text-decoration: none;
+    display: inline-block;            
+    margin: 40px;
+    width: 300px; 
+    height: 1000px;
+}
+.titulin{
+    color: #FFC045;
+}
+#trucoYnoticia{
+    display: flex;
+}
+#titulo{
+    display: flex;
+    justify-content:center;
+    width: auto;
+}
+.noticias{
+    flex-wrap:wrap;
+}
+footer{
+    background-color: brown;
+    width: 100%;
+}
