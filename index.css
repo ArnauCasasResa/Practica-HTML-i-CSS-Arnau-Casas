@@ -52,7 +52,7 @@ h2{
     cursor: pointer;
 }
 .text_menu h5:hover{
-    color:#0A91AB;
+    color:red;
 }
 body{
     margin: 0%;
