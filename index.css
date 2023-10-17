@@ -1,98 +1,11 @@
-#header {
-    width:100%;
-    display: flex;
-    background-color: #0A91AB;
-    margin:0%;
-    padding-bottom:1%;
-}
-.titulo_juego{
-    color: #FFC045;
-}
-h2{
-    color: #0A91AB;
-}
-#logotype{
-    display: block;
-    padding-bottom: 1%;
-    margin-top: 0%;
-    margin:auto;
-}
-#logo{
-    display: block;
-    padding-bottom: 1%;
-    margin-top: 0%;
-    margin:auto;
-}
-#menu{
-    display: flex;
-    justify-content: center;
-    background-color: #FFC045;
-    transition: all 0.5s ease-in-out;
-    position: sticky;
-    top:0;
-    height:7.0%;
-    width:100%;
 
-}
-#menu:hover {
-    transform: scale(1.1);
-}
-#linea{
-    background-color: black;
-    height: 2px;
-    width: 100%;
-    margin: 0%;
-}    
-.text_menu{
-    position:sticky;
-    display: flex;
-    flex-direction: row;
-    padding-left: 0.75%;
-    padding-right: 0.75%;
-    cursor: pointer;
-}
-.text_menu h5:hover{
-    color:red;
-}
-body{
-    margin: 0%;
-}
+
+
 #imagen{
     margin-left: auto;
     margin-right: auto;
 }
-.imagenes{
-    width: 500px;
-    height: 250px;
-}
-.juegos{
-    border: 2px;
-    border-style:groove;
-    border-radius: 5px;
-    border-color: #FFC045;
-    justify-content:center;
-    color: black;
-    display: inline-block;            
-    box-shadow: 10px 10px 5px grey;
-    margin: 40px;
-    width: 500px;
-}
-.info{
-    border: 2px;
-    padding-top: 0.75%;
-    padding-bottom: 0.75%;
-    background-color: #FFC045;
-    border-style:groove;
-    border-radius: 5px;
-    border-color: #FFC045;
-    justify-content:flex-end;
-    color: black;
-    display: inline-block;            
-    cursor: pointer;
-    text-align: center;
-    margin: 5px;
-    height: 20px;
-    }
+
 #trucos{
     
     border: 2px;
@@ -232,6 +145,8 @@ body{
     text-align: center;
 }
 footer{
+    display: block;
+    flex-direction: row;
     background-color: brown;
     width: 100%;
 }
