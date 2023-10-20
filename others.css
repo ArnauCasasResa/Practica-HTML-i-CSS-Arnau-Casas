@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Maven+Pro:wght@400;700&display=swap&#39;');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Maven+Pro:wght@400;700&display=swap&#39;');
+#header {
+    width:100%;
+    display: flex;
+    background-color: #0A91AB;
+    margin:0%;
+    padding-bottom:1%;
+}
+body{
+    font-family:'Kanit';
+    margin: 0%;
+    width: 100%;
+    background-color:floralwhite;
+}
+h2{
+    color: #0A91AB;
+}
+#logotype{
+    display: block;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin:auto;
+}
+#logo{
+    display: block;
+    margin-top: 0%;
+    margin-bottom:0%;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    background-color: #FFC045;
+    transition: all 0.5s ease-in-out;
+    position: sticky;
+    top:0;
+    height:6.0%;
+    width:100%;
+
+}
+.text_menu{
+    position:sticky;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    cursor: pointer;
+}
+.text_menu h4:hover{
+    color:#0A91AB;
+}
+#linea{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    margin: 0%;
+}
+article{
+    margin: 1%;
+}
+.juegos{
+    border: 2px;
+    border-style:dotted;
+    border-radius: 5px;
+    border-color: #FFC045;
+    justify-content:center;
+    color: black;
+    display: inline-block;            
+    box-shadow: 10px 10px 5px grey;
+    margin: 40px;
+    width: 500px;
+}
+.titulo_juego{
+    color: #FFC045;
+}
+.imagenes{
+    width: 500px;
+    height: 250px;
+}
+.info{
+    border: 2px;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    background-color: #FFC045;
+    border-style:dashed;
+    border-radius: 5px;
+    border-color: #FFC045;
+    color: black;
+    display: inline-block;            
+    cursor: pointer;
+    text-align: center;
+    margin-left: 85%;
+    margin-bottom: 1%;
+    height: 25px;
+}
+#trucosynoticias{
+    display: flex;
+}
+#trucos{
+    border: 3px;
+    text-align: center;
+    border-style:dotted;
+    border-radius: 5px;
+    background-color:lightcyan;
+    border-color: black;
+    justify-content:center;
+    color: black;
+    display: inline-block;            
+    margin: 40px;
+    width: 300px; 
+    height: 92%;
+}
+.titulin{
+    color: #FFC045;
+    font-size: 20px;
+}
+#noticias{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#news{
+    padding-left: 47%;
+    padding-right: 67%;
+}
+.noticia{
+    border: 2px;
+    border-style:dotted;
+    border-radius: 5px;
+    border-color: #FFC045;
+    text-align:center;
+    color: black;
+    display: block;          
+    box-shadow: 10px 10px 5px grey;
+    margin: 40px;
+    width: 500px; 
+}
+.fecha{
+    text-align: left;
+    margin: 1%;
+    font-weight: bold;
+}
+.linea_noticias{
+    background-color:#FFC045;
+    height: 5px;
+    width: 98%;
+    margin-left: 1%;
+}
+.imagenesnoticias{
+    width: 500px;
+    height: 250px;
+}
+.texto_noticias{
+    margin: 1%;
+    text-align: left;
+}
+.info_noticias{
+    border: 2px;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    background-color: #FFC045;
+    border-style:dashed;
+    border-radius: 5px;
+    border-color: #FFC045;
+    color: black;
+    display: inline-block;            
+    cursor: pointer;
+    text-align: center;
+    margin-left: 85%;
+    margin-bottom: 1%;
+    height: 25px;
+}
+#rank_title{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.rank{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1%;
+    text-align: center;
+    font-weight: bold;
+}
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+footer{
+    background-color:  #8A8070;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    cursor: pointer;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0%;
+}
+.footer_text{
+    padding-left: 0.75%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0.75%;
+}
+.footer_copy{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer_ubi{
+    justify-content: right;
+    display: flex;
+    flex-direction:row;
+}
