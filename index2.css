@@ -11,7 +11,7 @@ body{
     font-family:'Kanit';
     margin: 0%;
     width: 100%;
-    background-color:floralwhite;
+    background-color:antiquewhite;
 }
 h2{
     color: #0A91AB;
@@ -27,27 +27,29 @@ h2{
     margin-top: 0%;
     margin-bottom:0%;
 }
-#menu{
+nav {
+    z-index: 100;
+    position: sticky;
     display: flex;
     justify-content: center;
     background-color: #FFC045;
-    transition: all 0.5s ease-in-out;
-    position: sticky;
     top:0;
-    height:6.0%;
+    height:7.0%;
     width:100%;
-
 }
-.text_menu{
-    position:sticky;
+nav a {
+    text-decoration: none;
+    color:black;
+}
+nav div {
     display: flex;
     flex-direction: row;
     padding-left: 0.75%;
     padding-right: 0.75%;
-    cursor: pointer;
 }
-.text_menu h4:hover{
+nav div a:hover {
     color:#0A91AB;
+    cursor: pointer;
 }
 #linea{
     background-color: black;
@@ -61,6 +63,7 @@ article{
 .juegos{
     border: 2px;
     border-style:dotted;
+    background-color: white;
     border-radius: 5px;
     border-color: #FFC045;
     justify-content:center;
@@ -126,14 +129,18 @@ article{
 .noticia{
     border: 2px;
     border-style:dotted;
-    border-radius: 5px;
+    border-radius: 6px;
+    background-color: white;
     border-color: #FFC045;
     text-align:center;
     color: black;
     display: block;          
-    box-shadow: 10px 10px 5px grey;
     margin: 40px;
     width: 500px; 
+}
+.noticia:hover{
+    box-shadow: 10px 10px 5px grey;
+    border-style:none;
 }
 .fecha{
     text-align: left;

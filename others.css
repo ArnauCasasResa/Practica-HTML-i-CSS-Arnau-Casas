@@ -27,27 +27,29 @@ h2{
     margin-top: 0%;
     margin-bottom:0%;
 }
-#menu{
+nav {
+    z-index: 100;
+    position: sticky;
     display: flex;
     justify-content: center;
     background-color: #FFC045;
-    transition: all 0.5s ease-in-out;
-    position: sticky;
     top:0;
-    height:6.0%;
+    height:7.0%;
     width:100%;
-
 }
-.text_menu{
-    position:sticky;
+nav a {
+    text-decoration: none;
+    color:black;
+}
+nav div {
     display: flex;
     flex-direction: row;
     padding-left: 0.75%;
     padding-right: 0.75%;
-    cursor: pointer;
 }
-.text_menu h4:hover{
+nav div a:hover {
     color:#0A91AB;
+    cursor: pointer;
 }
 #linea{
     background-color: black;
