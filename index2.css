@@ -85,7 +85,7 @@ article{
     padding-top: 0.75%;
     padding-bottom: 0.75%;
     background-color: #FFC045;
-    border-style:dashed;
+    border-style:double;
     border-radius: 5px;
     border-color: #FFC045;
     color: black;
@@ -95,6 +95,12 @@ article{
     margin-left: 85%;
     margin-bottom: 1%;
     height: 25px;
+}
+.info:hover{
+    box-shadow: 2.5px 2.5px 1px grey;
+    border-color: #0A91AB;
+    color: whitesmoke;
+    background-color: #0A91AB;
 }
 #trucosynoticias{
     display: flex;
@@ -174,8 +180,15 @@ article{
     cursor: pointer;
     text-align: center;
     margin-left: 85%;
+    margin-right: 0.5%;
     margin-bottom: 1%;
     height: 25px;
+}
+.info_noticias:hover{
+    box-shadow: 2.5px 2.5px 1px grey;
+    border-color: #0A91AB;
+    color: whitesmoke;
+    background-color: #0A91AB;
 }
 #rank_title{
     width: 100%;

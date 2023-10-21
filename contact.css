@@ -11,7 +11,7 @@ body{
     font-family:'Kanit';
     margin: 0%;
     width: 100%;
-    background-color:floralwhite;
+    background-color:antiquewhite;
 }
 h2{
     color: #0A91AB;
@@ -63,6 +63,7 @@ article{
 .juegos{
     border: 2px;
     border-style:dotted;
+    background-color: white;
     border-radius: 5px;
     border-color: #FFC045;
     justify-content:center;
@@ -84,7 +85,7 @@ article{
     padding-top: 0.75%;
     padding-bottom: 0.75%;
     background-color: #FFC045;
-    border-style:dashed;
+    border-style:double;
     border-radius: 5px;
     border-color: #FFC045;
     color: black;
@@ -94,6 +95,12 @@ article{
     margin-left: 85%;
     margin-bottom: 1%;
     height: 25px;
+}
+.info:hover{
+    box-shadow: 2.5px 2.5px 1px grey;
+    border-color: #0A91AB;
+    color: whitesmoke;
+    background-color: #0A91AB;
 }
 #trucosynoticias{
     display: flex;
@@ -128,13 +135,18 @@ article{
 .noticia{
     border: 2px;
     border-style:dotted;
-    border-radius: 5px;
+    border-radius: 6px;
+    background-color: white;
     border-color: #FFC045;
     text-align:center;
     color: black;
     display: block;          
     margin: 40px;
     width: 500px; 
+}
+.noticia:hover{
+    box-shadow: 10px 10px 5px grey;
+    border-style:none;
 }
 .fecha{
     text-align: left;
@@ -168,8 +180,15 @@ article{
     cursor: pointer;
     text-align: center;
     margin-left: 85%;
+    margin-right: 0.5%;
     margin-bottom: 1%;
     height: 25px;
+}
+.info_noticias:hover{
+    box-shadow: 2.5px 2.5px 1px grey;
+    border-color: #0A91AB;
+    color: whitesmoke;
+    background-color: #0A91AB;
 }
 #rank_title{
     width: 100%;

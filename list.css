@@ -11,7 +11,7 @@ body{
     font-family:'Kanit';
     margin: 0%;
     width: 100%;
-    background-color:floralwhite;
+    background-color:antiquewhite;
 }
 h2{
     color: #0A91AB;
@@ -131,13 +131,18 @@ article{
     border: 2px;
     border-style:dotted;
     border-radius: 5px;
+    background-color: white;
     border-color: blueviolet;
     text-align:center;
     color: black;
     display: block;          
-    box-shadow: 10px 10px 5px grey;
+    
     margin: 40px;
     width: 500px; 
+}
+.noticia:hover{
+    border-style:none;
+    box-shadow: 10px 10px 5px grey;
 }
 .fecha{
     text-align: left;
@@ -195,6 +200,24 @@ article{
     margin-bottom: 1%;
     height: 25px;
     width: 30px;
+}
+.paginacion {
+    display: inline-block;
+    padding-left: 43%;
+}
+.paginado {
+    color: #0A91AB;
+    border: black;
+    border-style:ridge;
+    border-radius: 0.1px;
+    float: left;
+    background-color:whitesmoke;
+    padding: 8px 16px;
+}
+.paginado:hover{
+    border-style:solid;
+    color: whitesmoke;
+    background-color: #0A91AB;
 }
 #rank_title{
     width: 100%;
