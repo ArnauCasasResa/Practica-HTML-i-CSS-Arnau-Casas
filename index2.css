@@ -96,8 +96,17 @@ article{
     margin-bottom: 1%;
     height: 25px;
 }
+.info a{
+    text-decoration: none;
+    color: black;
+}
 .info:hover{
     box-shadow: 2.5px 2.5px 1px grey;
+    border-color: #0A91AB;
+    color: whitesmoke;
+    background-color: #0A91AB;
+}
+.info a:hover{
     border-color: #0A91AB;
     color: whitesmoke;
     background-color: #0A91AB;
@@ -184,8 +193,17 @@ article{
     margin-bottom: 1%;
     height: 25px;
 }
+.info_noticias a{
+    text-decoration: none;
+    color: black;
+}
 .info_noticias:hover{
     box-shadow: 2.5px 2.5px 1px grey;
+    border-color: #0A91AB;
+    color: whitesmoke;
+    background-color: #0A91AB;
+}
+.info_noticias a:hover{
     border-color: #0A91AB;
     color: whitesmoke;
     background-color: #0A91AB;

@@ -11,7 +11,6 @@ body{
     font-family:'Kanit';
     margin: 0%;
     width: 100%;
-    background-color:floralwhite;
 }
 h2{
     color: #0A91AB;
@@ -60,117 +59,50 @@ nav div a:hover {
 article{
     margin: 1%;
 }
-.juegos{
-    border: 2px;
-    border-style:dotted;
-    border-radius: 5px;
-    border-color: #FFC045;
-    justify-content:center;
-    color: black;
-    display: inline-block;            
-    box-shadow: 10px 10px 5px grey;
-    margin: 40px;
-    width: 500px;
+body{
+    background-image: url(images/sekiro-shadows-die-twice-huge-hero-desktop-tablet-01-ps4-eu-21jun18.webp);
+    background-position: center;
 }
-.titulo_juego{
-    color: #FFC045;
+#box{
+    margin-top: 2%;
+    margin-left: 9%;
+    color: white;
 }
-.imagenes{
-    width: 500px;
-    height: 250px;
-}
-.info{
-    border: 2px;
-    padding-top: 0.75%;
-    padding-bottom: 0.75%;
-    background-color: #FFC045;
-    border-style:dashed;
-    border-radius: 5px;
-    border-color: #FFC045;
-    color: black;
-    display: inline-block;            
-    cursor: pointer;
-    text-align: center;
-    margin-left: 85%;
-    margin-bottom: 1%;
-    height: 25px;
-}
-#trucosynoticias{
-    display: flex;
-}
-#trucos{
-    border: 3px;
-    text-align: center;
-    border-style:dotted;
-    border-radius: 5px;
-    background-color:lightcyan;
-    border-color: black;
-    justify-content:center;
-    color: black;
-    display: inline-block;            
-    margin: 40px;
-    width: 300px; 
-    height: 92%;
-}
-.titulin{
-    color: #FFC045;
-    font-size: 20px;
-}
-#noticias{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-#news{
-    padding-left: 47%;
-    padding-right: 67%;
-}
-.noticia{
-    border: 2px;
-    border-style:dotted;
-    border-radius: 5px;
-    border-color: #FFC045;
-    text-align:center;
-    color: black;
-    display: block;          
-    box-shadow: 10px 10px 5px grey;
-    margin: 40px;
-    width: 500px; 
-}
-.fecha{
-    text-align: left;
-    margin: 1%;
+#empresa{
     font-weight: bold;
+    padding-bottom: 12px;
 }
-.linea_noticias{
-    background-color:#FFC045;
-    height: 5px;
-    width: 98%;
-    margin-left: 1%;
+#dispon{
+    padding-bottom: 30px;
 }
-.imagenesnoticias{
-    width: 500px;
-    height: 250px;
+#cantJugador{
+    display: flex;
 }
-.texto_noticias{
-    margin: 1%;
-    text-align: left;
+#precio{
+    padding-bottom: 50px;
+    font-size:30px;
 }
-.info_noticias{
-    border: 2px;
-    padding-top: 0.75%;
-    padding-bottom: 0.75%;
-    background-color: #FFC045;
-    border-style:dashed;
-    border-radius: 5px;
-    border-color: #FFC045;
-    color: black;
-    display: inline-block;            
-    cursor: pointer;
-    text-align: center;
-    margin-left: 85%;
-    margin-bottom: 1%;
-    height: 25px;
+#cantJugador{
+    padding-top: 1%;
+}
+#imagenPerson{
+    height: 38px;
+    width: 38px;
+}
+#players{
+    font-size: 18px;
+    padding-top: 0.2%;
+}
+#description{
+    padding-top: 30px;
+}
+#clasificacion{
+    padding-top: 10%;
+    padding-left: 93%;
+}
+.typeGame{
+    height: 48px;
+    width: 42px;
 }
 #rank_title{
     width: 100%;
